@@ -54,7 +54,7 @@ public class JavaBasicsClass {
 		subtotal = (cortado*3)+(espresso*4)+(latte*2);
 		final double SALES_TAX = 2.40;
 		totalSale = subtotal + SALES_TAX;
-		System.out.println("Total Sale: " + totalSale);
+		System.out.println("Total Sale: " + String.format("%.2f",totalSale));
 	}
 
 }
