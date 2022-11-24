@@ -55,6 +55,9 @@ public class JavaBasicsClass {
 		final double SALES_TAX = 2.40;
 		totalSale = subtotal + SALES_TAX;
 		System.out.println("Total Sale: " + String.format("%.2f",totalSale));
+		
+		//////////////////////////////////////////
+		
 	}
 
 }
